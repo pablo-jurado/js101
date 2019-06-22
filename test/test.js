@@ -479,6 +479,18 @@ function check106 () {
     assert(Number.isNaN(module.mod(3.14, 0)), 'mod(3.14, 0) should return NaN (not a number)')
     assert(module.mod(3.14, 1000) === 3.14, 'mod(3.14, 1000) should return 3.14')
   })
+
+  checkForFunction('106-math.js', module, 'isEven')
+  it('"isEven" function', function() {
+    assert(module.isEven(2) === true, 'isEven(2) should return true')
+    assert(module.isEven(3) === false, 'isEven(3) should return false')
+  })
+
+  checkForFunction('106-math.js', module, 'isNegative')
+  it('"isNegative" function', function() {
+    assert(module.isNegative(20) === false, 'isNegative(20) should return false')
+    assert(module.isNegative(-3) === true, 'isNegative(-3) should return true')
+  })
 }
 
 // -----------------------------------------------------------------------------

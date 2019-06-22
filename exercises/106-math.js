@@ -34,3 +34,11 @@
 // The modulus operator (%) works like remainder from division.
 // Create a function "mod" that takes 2 number arguments and returns the
 // remainder of the first divided by the second.
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Create a function called isEven() that returns true or false whether a number is even or not.
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Createa function called isNegative(). it should return true if the number is negative, and false if the number is positive.
